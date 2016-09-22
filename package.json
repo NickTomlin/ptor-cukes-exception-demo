@@ -8,6 +8,13 @@
     "protractor-cucumber-framework": "0.6.0"
   },
   "scripts": {
-    "test": "protractor protractorConf.js"
+    "test": "echo 'use npm run test:cucumber or npm run test:mocha'",
+    "test:mocha": "protractor protractorMochaConf.js",
+    "test:cucumber": "protractor protractorConf.js"
+  },
+  "devDependencies": {
+    "chromedriver": "^2.24.1",
+    "mocha": "^3.0.2",
+    "protractor": "^4.0.4"
   }
 }
