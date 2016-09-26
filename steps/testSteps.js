@@ -15,4 +15,7 @@ module.exports = function() {
         return browser.sleep(1);
     });
 
+    this.Then(/experience great success/, function () {
+      return true
+    })
 };
